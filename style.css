@@ -1,0 +1,114 @@
+/* General Reset */
+body, h1, table, input, textarea, button, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+/* Body Style */
+body {
+    background: linear-gradient(to bottom right, pink, yellow);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+h1 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Table Design */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #ffb6c1; /* Light pink */
+    color: #333;
+}
+
+table tr:hover {
+    background-color: #fce4ec;
+}
+
+/* Buttons */
+a, button {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block;
+    background: linear-gradient(to bottom right, #ff8a80, #ffd54f); /* Gradient Pink-Yellow */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+a:hover, button:hover {
+    opacity: 0.9;
+}
+
+/* Form Design */
+form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #ff8a80;
+    box-shadow: 0 0 5px rgba(255, 138, 128, 0.5);
+}
+
+a {
+    margin: 20px 0;
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(to right, #ff7eb3, #ffc75f); /* Pink-Yellow Gradient */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+a:hover {
+    background: linear-gradient(to right, #ffc75f, #ff7eb3); /* Reverse Gradient */
+}
